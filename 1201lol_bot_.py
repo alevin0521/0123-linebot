@@ -59,9 +59,9 @@ app = Flask(__name__,static_url_path = "/material" , static_folder = "./material
 run_with_ngrok(app)
 
 # 生成實體物件
-line_bot_api = LineBotApi("2a14M/Ugetf8tT8uMJu+ZoNJ+kolDwsO31jDDuaU6Sbh2grevciPb6aTBG6PdfNrhJYpYfr7TfNdIcW5BWLNqXnmOSwGXRq+LDlXCLPNazfDIoDzEmMMZdGrXrtHtCB/7tOfdwjLKQAuaeFDkow38QdB04t89/1O/w1cDnyilFU=")
+line_bot_api = LineBotApi("Your channel access token")
 #channel access token
-handler = WebhookHandler("690a372275d70318e4d53a40a298446c")   
+handler = WebhookHandler("Your Channel secret")   
 #Channel secret
 
 # 建置主程序的API入口
